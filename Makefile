@@ -1,4 +1,4 @@
 backend-run:
-	flask --app app run --debug
+	python app.py
 requirements:
 	pip install -r requirements.txt

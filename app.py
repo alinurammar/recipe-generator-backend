@@ -20,3 +20,5 @@ def handle_ingredients():
     ingredients_list = [ingredient.strip() for ingredient in ingredients_list_string.split(',')]
     response =  gpt_client.generate_recipes(ingredientsList=ingredients_list, filtersList=filter_list_string)
     return jsonify({'message': response})
+if __name__ == '__main__':
+   app.run(debug=True)
