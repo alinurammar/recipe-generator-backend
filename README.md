@@ -2,7 +2,7 @@
 1. python3 -m venv .venv
 2. source .venv/bin/activate
 3. make requirements
-4. create .env file in the backend directory (see below for example)
+4. create .env file
 4. make backend-run
 
 ## .env file
